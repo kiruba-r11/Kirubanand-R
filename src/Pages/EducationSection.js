@@ -7,16 +7,18 @@ import '../Components/css/EducationCard.css'
 
 function EducationSection() {
     return (
-        <div className="container my-5 pt-5" id="education">
+        <div style={{paddingTop: "100px"}} className="container" id="education">
             <Headings
+                key={headings[0].id}
                 title={headings[0].title}
                 subTitle={headings[0].subTitle}
             />
             <div className="row">
                 {
-                    educationData.map(function(value) {
+                    educationData.map(function (value) {
                         return (
                             <EducationCard
+                                key={value.id}
                                 institution={value.institution}
                                 type={value.type}
                                 year={value.year}
