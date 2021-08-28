@@ -32,6 +32,7 @@ function OpenSourceProjectsTableDefinition() {
                                                         key={data.id}
                                                         sno={data.id}
                                                         repoName={data.repositoryName}
+                                                        repoSrc={data.repositorySrc}
                                                         totalMergedPR={data.totalMergedPR}
                                                         prSrc={data.prSrc}
                                                         techStack={data.techStack}

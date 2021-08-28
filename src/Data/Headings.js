@@ -13,6 +13,11 @@ const headings = [
         id:3,
         title: "My Projects",
         subTitle: "Works"
+    }, 
+    {
+        id: 4,
+        title: "Connect",
+        subTitle: "Let's Talk"
     }
 ]
 

@@ -12,7 +12,7 @@ function ProjectsSection() {
                 title={headings[2].title}
                 subTitle={headings[2].subTitle}
             />
-            <h1 style={{fontWeight: 400}} className="mb-5">Open Source Contributions <a target="__blank" href="https://github.com/kiruba-r11/Open-Source-Contributions"><i class="fab fa-github"></i></a></h1>
+            <h1 style={{fontWeight: 400}} className="mb-5">Open Source Contributions <a target="__blank" href="https://github.com/kiruba-r11/Open-Source-Contributions"><i className="fab fa-github"></i></a></h1>
             <OpenSourceProjectsTableDefinition />
         </div>
     );

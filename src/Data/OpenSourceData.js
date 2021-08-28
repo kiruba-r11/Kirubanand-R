@@ -10,6 +10,7 @@ const openSourceData = [
                 id: 1,
                 repositoryName: "DSA Guide",
                 totalMergedPR: 8,
+                repositorySrc: "https://github.com/ankitapuri/DSA-guide",
                 techStack: [
                     "CPP",
                     "Python",
@@ -30,6 +31,7 @@ const openSourceData = [
                 id: 2,
                 repositoryName: "Data Structure and Algorithms",
                 totalMergedPR: 6,
+                repositorySrc: "https://github.com/Nivedita967/Data-Structure-and-Algorithms",
                 techStack: [
                     "C",
                     "CPP",
@@ -49,6 +51,7 @@ const openSourceData = [
                 id: 3,
                 repositoryName: "College Library Website",
                 totalMergedPR: 1,
+                repositorySrc: "https://github.com/urvashi-code1255/College-Library-Website",
                 techStack: [
                     "Design",
                     "Canva"
@@ -70,6 +73,7 @@ const openSourceData = [
                 id: 1,
                 repositoryName: "NeoAlgo",
                 totalMergedPR: 6,
+                repositorySrc: "https://github.com/TesseractCoding/NeoAlgo",
                 techStack: [
                     "Kotlin",
                     "Data Structures"
@@ -87,6 +91,7 @@ const openSourceData = [
                 id: 2,
                 repositoryName: "Algo Tree",
                 totalMergedPR: 1,
+                repositorySrc: "https://github.com/Algo-Phantoms/Algo-Tree",
                 techStack: [
                     "CPP",
                     "Data Structures"
@@ -108,6 +113,7 @@ const openSourceData = [
                 id: 1,
                 repositoryName: "Bundli Frontend",
                 totalMergedPR: 14,
+                repositorySrc: "https://github.com/Ayush7614/Bundli-Frontend",
                 techStack: [
                     "HTMl",
                     "CSS",
@@ -144,6 +150,7 @@ const openSourceData = [
                 id: 1,
                 repositoryName: "Cool Front End Templates",
                 totalMergedPR: 6,
+                repositorySrc: "https://github.com/kiruba-r11/Cool-Front-End_Templates",
                 techStack: [
                     "HTMl",
                     "CSS",
@@ -163,6 +170,7 @@ const openSourceData = [
                 id: 2,
                 repositoryName: "Amazing JS Projects",
                 totalMergedPR: 3,
+                repositorySrc: "https://github.com/kiruba-r11/Amazing-Js-Projects",
                 techStack: [
                     "HTMl",
                     "CSS",
@@ -188,6 +196,7 @@ const openSourceData = [
                 id: 1,
                 repositoryName: "Competitive Programming Question Bank",
                 totalMergedPR: 27,
+                repositorySrc: "https://github.com/kiruba-r11/CompetitiveProgrammingQuestionBank",
                 techStack: [
                     "CPP",
                     "Python",
