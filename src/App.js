@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './Components/NavBar';
 import AboutSection from './Pages/AboutSection';
 import EducationSection from './Pages/EducationSection';
+import ProjectsSection from './Pages/ProjectsSection';
 import SkillsSection from './Pages/SkillsSection';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
             <AboutSection />
             <EducationSection />
             <SkillsSection />
+            <ProjectsSection />
         </>
     );
 }

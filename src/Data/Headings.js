@@ -8,6 +8,11 @@ const headings = [
         id:2,
         title: "My Skills",
         subTitle: "Tech Stack",
+    },
+    {
+        id:3,
+        title: "My Projects",
+        subTitle: "Works"
     }
 ]
 

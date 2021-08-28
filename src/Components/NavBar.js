@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
 import AboutSection from '../Pages/AboutSection';
 import EducationSection from '../Pages/EducationSection';
 import SkillsSection from '../Pages/SkillsSection';
@@ -12,26 +12,26 @@ function NavBar() {
             <Switch>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-light nav-bg-color-light">
                     <div className="container">
-                        <HashLink to="/#" className="navbar-brand nav-text-color-light">Resume</HashLink>
+                        <NavHashLink to="/#" className="navbar-brand nav-text-color-light">Resume</NavHashLink>
                         <button data-bs-target="#portfolio-nav" data-bs-toggle="collapse" className="toggler navbar-toggler">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="portfolio-nav">
                             <ul className="navbar-nav ms-auto">
                                 <li className="mx-2 nav-item">
-                                    <HashLink to="/#" className="nav-link  nav-text-color-light">About</HashLink>
+                                    <NavHashLink to="/" activeClassName="active" className="nav-link  nav-text-color-light">About</NavHashLink>
                                 </li>
                                 <li className="mx-2 nav-item">
-                                    <HashLink to="/#education" className="nav-link  nav-text-color-light">Education</HashLink>
+                                    <NavHashLink to="/#education" activeClassName="active" className="nav-link  nav-text-color-light">Education</NavHashLink>
                                 </li>
                                 <li className="mx-2 nav-item">
-                                    <HashLink to="/#skills" className="nav-link  nav-text-color-light">Skills</HashLink>
+                                    <NavHashLink to="/#skills" activeClassName="active" className="nav-link  nav-text-color-light">Skills</NavHashLink>
                                 </li>
                                 <li className="mx-2 nav-item">
-                                    <HashLink to="/#projects" className="nav-link  nav-text-color-light">Projects</HashLink>
+                                    <NavHashLink to="/#projects" activeClassName="active" className="nav-link  nav-text-color-light">Projects</NavHashLink>
                                 </li>
                                 <li className="mx-2 nav-item">
-                                    <HashLink to="/#connect" className="nav-link  nav-text-color-light">Connect</HashLink>
+                                    <NavHashLink to="/#connect" activeClassName="active" className="nav-link  nav-text-color-light">Connect</NavHashLink>
                                 </li>
                             </ul>
                         </div>
