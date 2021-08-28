@@ -13,7 +13,7 @@ function OpenSourceProjectsTableData(props) {
         <tr>
             <td className="py-4 text-center align-middle">{props.sno}</td>
             <td className="py-4 align-middle"><h6 className="mb-0"><a target="__blank" href={props.repoSrc} className="me-3"><i className="fab fa-github"></i></a>{props.repoName}</h6></td>
-            <td className="py-4 text-center align-middle">{props.totalMergedPR}</td>
+            <td className="py-4 text-center align-middle"><h6>{props.totalMergedPR}</h6></td> 
             <td className="py-4 text-center align-middle">
             <div style={myCustomScrollbar}>
                 {

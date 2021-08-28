@@ -4,7 +4,7 @@ import About from '../Components/About';
 function AboutSection() {
 
     return (
-        <div style={{paddingTop: "100px"}} class="container" id="about-content">
+        <div style={{paddingTop: "100px"}} class="container" id="about">
             <About />
         </div>
     );

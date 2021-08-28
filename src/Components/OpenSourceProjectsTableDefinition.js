@@ -18,7 +18,7 @@ function OpenSourceProjectsTableDefinition() {
                                     <thead>
                                         <tr>
                                             <th style={{ minWidth: "75px" }} className="text-center" scope="col">S.No.</th>
-                                            <th style={{ minWidth: "300px" }} scope="col">Repository Name</th>
+                                            <th style={{ minWidth: "400px" }} scope="col">Repository Name</th>
                                             <th style={{ minWidth: "200px" }} className="text-center" scope="col">Total Merged PRs</th>
                                             <th style={{ minWidth: "120px" }} className="text-center" scope="col">Merged PRs</th>
                                             <th style={{ minWidth: "120px" }} className="text-center" scope="col">Tech Stack</th>

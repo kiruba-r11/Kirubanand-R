@@ -1,5 +1,6 @@
 import React from "react";
 import Heading from "../Components/Heading";
+import MiniProjectsCardBox from "../Components/MiniProjectsCardBox";
 import OpenSourceProjectsTableDefinition from "../Components/OpenSourceProjectsTableDefinition";
 import headings from "../Data/Headings";
 
@@ -14,6 +15,8 @@ function ProjectsSection() {
             />
             <h1 style={{fontWeight: 400}} className="mb-5">Open Source Contributions <a target="__blank" href="https://github.com/kiruba-r11/Open-Source-Contributions"><i className="fab fa-github"></i></a></h1>
             <OpenSourceProjectsTableDefinition />
+            <h1 style={{fontWeight: 400}} className="mb-5">Mini Projects <a target="__blank" href="https://github.com/kiruba-r11/Mini-Projects"><i className="fab fa-github"></i></a></h1>
+            <MiniProjectsCardBox />
         </div>
     );
 }

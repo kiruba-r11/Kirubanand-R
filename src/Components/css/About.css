@@ -1,10 +1,10 @@
-#about-content {
+#about {
     display: flex;
     min-height: 90vh;
     align-items: center;
 }
 
-#about-content .row {
+#about .row {
     width: 110%;
 }
 
@@ -33,7 +33,7 @@
 }
 
 @media (max-width: 991px) {
-    #about-content .row {
+    #about .row {
         flex-direction: column-reverse;
     }
     .introduction {

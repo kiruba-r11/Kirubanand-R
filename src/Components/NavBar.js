@@ -19,7 +19,7 @@ function NavBar() {
                         <div className="collapse navbar-collapse" id="portfolio-nav">
                             <ul className="navbar-nav ms-auto">
                                 <li className="mx-2 nav-item">
-                                    <NavHashLink to="/" activeClassName="active" className="nav-link  nav-text-color-light">About</NavHashLink>
+                                    <NavHashLink to="/#about" activeClassName="active" className="nav-link  nav-text-color-light">About</NavHashLink>
                                 </li>
                                 <li className="mx-2 nav-item">
                                     <NavHashLink to="/#education" activeClassName="active" className="nav-link  nav-text-color-light">Education</NavHashLink>
