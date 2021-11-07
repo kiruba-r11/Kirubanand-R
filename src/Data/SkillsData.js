@@ -6,8 +6,8 @@ const skillsData = [
     },
     {
         id: 2,
-        name: "Kotlin",
-        imageSrc: "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+        name: "C",
+        imageSrc: "https://seeklogo.com/images/C/c-programming-language-logo-9B32D017B1-seeklogo.com.png",
     },
     {
         id: 3,

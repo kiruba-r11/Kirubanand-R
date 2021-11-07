@@ -9,7 +9,7 @@ import SkillsSection from './Pages/SkillsSection';
 function App() {
     return (
         <>
-            <NavBar/>
+            <NavBar />
             <AboutSection />
             <EducationSection />
             <SkillsSection />

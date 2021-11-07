@@ -12,7 +12,7 @@ const miniProjectsData = [
         name: "Hand Cricket",
         repositorySrc: "https://github.com/kiruba-r11/Hand-Cricket",
         projectType: "Android App",
-        projectDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, facere!",
+        projectDesc: "A game-app based on the rules of Hand Cricket.",
         techStack: ["Kotlin"]
     },
     {
@@ -20,7 +20,7 @@ const miniProjectsData = [
         name: "BMI Calculator",
         repositorySrc: "https://github.com/kiruba-r11/BMI-Calculator",
         projectType: "Android App",
-        projectDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, facere!",
+        projectDesc: "A simple app to calculate the BMI index.",
         techStack: ["Kotlin"]
     },
     {
@@ -28,7 +28,7 @@ const miniProjectsData = [
         name: "Memory Game",
         repositorySrc: "https://github.com/kiruba-r11/Memory-Game-Web-App",
         projectType: "Front-End Web App",
-        projectDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, facere!",
+        projectDesc: "A grid based memory game web-app.",
         techStack: ["HTML" , "CSS" , "JS" , "Bootstrap"],
         deploymentLink: "https://kiruba-r11.github.io/Memory-Game-Web-App/"
     },
