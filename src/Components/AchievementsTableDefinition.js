@@ -8,8 +8,8 @@ function AchievementsTableDefinition() {
             {
                 achievementsData.map((data) => {
                     return (
-                        <>
-                            <div className="d-flex justify-content-center justify-content-sm-start align-items-center">
+                        <div className="d-none d-sm-block">
+                            <div className="d-flex justify-content-center justify-content-md-start align-items-center">
                                 <h5 style={{ fontSize: "1.75rem", fontWeight: 400 }} className="nav-link mb-0">{data.name}</h5>
                             </div>
                             <div style={{marginBottom: "90px"}} className="container table-responsive-xl mt-5">
@@ -44,7 +44,7 @@ function AchievementsTableDefinition() {
                                     </tbody>
                                 </table>
                             </div>
-                        </>
+                        </div>
                     );
                 })
             }

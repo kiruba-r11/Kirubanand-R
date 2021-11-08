@@ -4,7 +4,7 @@ import miniProjectsData from '../Data/MiniProjectsData';
 
 function MiniProjectsCardBox() {
     return (
-        <div className="row">
+        <div className="row justify-content-center">
             {
                 miniProjectsData.map((data) => {
                     return (

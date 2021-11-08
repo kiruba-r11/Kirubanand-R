@@ -2,7 +2,7 @@ import React from 'react';
 
 function MiniProjectsCardItem(props) {
     return (
-        <div className="mb-4 col-lg-4 col-md-6">
+        <div className="d-none d-sm-block mb-4 col-lg-4 col-md-6">
             <div className="card">
                 <img src="https://picsum.photos/200" className="card-img-top" alt="..." />
                 <div className="card-body">

@@ -8,10 +8,10 @@ function OpenSourceProjectsTableDefinition() {
             {
                 openSourceData.map((data) => {
                     return (
-                        <>
-                            <div className="d-flex justify-content-center justify-content-sm-start align-items-center">
+                        <div className="d-none d-sm-block">
+                            <div className="d-flex justify-content-center justify-content-md-start align-items-center">
                                 <h5 style={{ fontSize: "1.75rem", fontWeight: 400 }} className="nav-link mb-0">{data.name}</h5>
-                                <span style={{ backgroundColor: "#007BFF", fontWeight: 600, fontSize: "0.8rem" }} className="badge">{data.timeline}</span>
+                                <span style={{ backgroundColor: "#007BFF", fontWeight: 600, fontSize: "0.8rem" }} className="d-none d-md-block badge">{data.timeline}</span>
                             </div>
                             <div style={{marginBottom: "90px"}} className="container table-responsive-lg mt-5">
                                 <table class="table table-hover">
@@ -43,7 +43,7 @@ function OpenSourceProjectsTableDefinition() {
                                     </tbody>
                                 </table>
                             </div>
-                        </>
+                        </div>
                     );
                 })
             }

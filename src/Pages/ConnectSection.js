@@ -2,6 +2,7 @@ import React from 'react';
 import ConnectBox from '../Components/ConnectBox';
 import Heading from '../Components/Heading';
 import headings from '../Data/Headings';
+import "../Components/css/Connect.css"
 
 function ConnectSection() {
     return (
