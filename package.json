@@ -1,8 +1,8 @@
 {
   "name": "personal-website",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
-  "homepage": "https//kiruba-r11.github.io/Personal-Portfolio-Website",
+  "homepage": "http://kiruba-r11.github.io/Kirubanand-R",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
