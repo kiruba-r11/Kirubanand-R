@@ -24,6 +24,7 @@ function EducationSection() {
                                 year={value.year}
                                 score={value.score}
                                 imageSrc={value.imageSrc}
+                                imageAlt={value.imageAlt}
                             />
                         );
                     })

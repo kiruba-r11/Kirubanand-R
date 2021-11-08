@@ -8,7 +8,7 @@ function EducationCard(props) {
             <div className="card mb-3">
                 <div className="row g-2">
                     <div className="col-sm-4">
-                        <img className="education-image" src={props.imageSrc} alt="psg-itech-img"/>
+                        <img className="education-image" src={props.imageSrc} alt={props.imageAlt}/>
                     </div>
                     <div className="col-sm-8">
                         <div className="card-body">
