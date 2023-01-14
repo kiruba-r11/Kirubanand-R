@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Kirubanand-R/static/css/main.721265de.chunk.css",
-    "main.js": "/Kirubanand-R/static/js/main.04c5b8dd.chunk.js",
-    "main.js.map": "/Kirubanand-R/static/js/main.04c5b8dd.chunk.js.map",
+    "main.js": "/Kirubanand-R/static/js/main.d2d5d6df.chunk.js",
+    "main.js.map": "/Kirubanand-R/static/js/main.d2d5d6df.chunk.js.map",
     "runtime-main.js": "/Kirubanand-R/static/js/runtime-main.ccf15791.js",
     "runtime-main.js.map": "/Kirubanand-R/static/js/runtime-main.ccf15791.js.map",
     "static/js/2.a269ec34.chunk.js": "/Kirubanand-R/static/js/2.a269ec34.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.ccf15791.js",
     "static/js/2.a269ec34.chunk.js",
     "static/css/main.721265de.chunk.css",
-    "static/js/main.04c5b8dd.chunk.js"
+    "static/js/main.d2d5d6df.chunk.js"
   ]
 }
