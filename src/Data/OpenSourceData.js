@@ -233,6 +233,44 @@ const openSourceData = [
                 ]
             }
         ]
+    },
+    {
+        id: 6,
+        name: "Hacktoberfest",
+        timeline: "Oct 22 - Oct 22",
+        noOfProjects: 2,
+        totalMergedPR: 5,
+        projects: [
+            {
+                id: 1,
+                repositoryName: "hacktoberfest_2022",
+                totalMergedPR: 4,
+                repositorySrc: "https://github.com/hackelite01/hacktoberfest_2022",
+                techStack: [
+                    "CPP",
+                    "Data Structures"
+                ],
+                prSrc: [
+                    "https://github.com/hackelite01/hacktoberfest_2022/pull/9",
+                    "https://github.com/hackelite01/hacktoberfest_2022/pull/10",
+                    "https://github.com/hackelite01/hacktoberfest_2022/pull/12",
+                    "https://github.com/hackelite01/hacktoberfest_2022/pull/13"
+                ]
+            },
+            {
+                id: 2,
+                repositoryName: "DSA",
+                totalMergedPR: 1,
+                repositorySrc: "https://github.com/ToddChavez09/DSA",
+                techStack: [
+                    "CPP",
+                    "Data Structures"
+                ],
+                prSrc: [
+                    "https://github.com/ToddChavez09/DSA/pull/40"
+                ]
+            }
+        ]
     }
 ];
 
